@@ -2,7 +2,7 @@
 
 	pyprotecao - by Milhano
 	Version 0.1alpha
-	http://wr.inf.br/pyprotect/pyprotecao
+	http://faustinotv.me/pyprotect/pyprotecao
 
 	This is an open source software
 	Read LICENSE file before using it
@@ -18,7 +18,7 @@
 		<meta http-equiv="content-language" content="pt_BR">
 		<meta http-equiv="content-type" content="text/html; charset=utf-8">
 		<meta name="author" content="WR Informatica">
-		<meta name="reply-to" content="contato@wr.inf.br">
+		<meta name="reply-to" content="contato@faustinotv.me">
 		<meta name="rating" content="general">
 		<meta name="application-name" content="pyprotecao">
 		<meta name="description" content="This is a simple online tool to obfuscate python codes and &quot;hide&quot; their sources.">
@@ -26,14 +26,14 @@
 		<meta name="keywords" content="pyprotecao, python, obfuscate, obfuscator, crypt, encrypt, encode, pyobfuscate, tk, hide, source, secure, code, py, protecao">
 		<meta property="og:site_name" content="pyprotecao">
 		<meta property="og:type" content="website">
-		<meta property="og:url" content="http://wr.inf.br/pyprotect/pyprotecao">
+		<meta property="og:url" content="http://faustinotv.me/pyprotect/pyprotecao">
 		<meta property="og:title" content="pyprotecao">
-		<meta property="og:image" content="http://wr.inf.br/pyprotect/ogicon.png">
+		<meta property="og:image" content="http://faustinotv.me/pyprotect/ogicon.png">
 		<meta property="og:image:type" content="image/png">
 		<meta property="og:image:width" content="256">
 		<meta property="og:image:height" content="256">
 		<meta property="og:locale" content="pt_BR">
-		<link rel="canonical" href="http://wr.inf.br/pyprotect/pyprotecao">
+		<link rel="canonical" href="http://faustinotv.me/pyprotect/pyprotecao">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	    
 		<title>pyprotect</title>
@@ -61,7 +61,7 @@
 					</form>
 					<hr>
 					<span class="copy">by Milhano<br>
-					<a href="http://milhano.com.pt" target="_blank">[Website]</a>&nbsp;&nbsp;<a href="mailto:contato@wr.inf.br" target="_blank">[Contact]</a>&nbsp;&nbsp;<a href="https://github.com/Milhano/pyprotecao" target="_blank">[Source]</a></span>
+					<a href="http://milhano.com.pt" target="_blank">[Website]</a>&nbsp;&nbsp;<a href="mailto:contato@faustinotv.me" target="_blank">[Contact]</a>&nbsp;&nbsp;<a href="https://github.com/Milhano/pyprotecao" target="_blank">[Source]</a></span>
 				</td>
 			</tr>
 		</table>

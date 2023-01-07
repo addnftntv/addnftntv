@@ -3,11 +3,11 @@
 <channels>
 
 <channel>
-<name>[B][COLOR lime]•• [COLOR white]TEST 02 / CANAIS HD[/COLOR][/B]</name>
+<name>[B][COLOR lime]•• [COLOR white]TEST 01 / CANAIS HD[/COLOR][/B]</name>
 <link>$doregex[getM3U8]|User-Agent=iPad</link>
 <regex>
 <name>getM3U8</name>
-<expres>value="#EXTINF.*.*,(.*?HD.*)\n(.*)"</expres>
+<expres><![CDATA[#EXTINF.*.*,(.*?HD.*)\n(.*)]]></expres>
 <page><![CDATA[https://addnftntv.github.io/addnftntv/ls.txt]]></page>
 </regex>
 <fanart>https://i.imgur.com/XbxnDT6.png</fanart>
@@ -15,3 +15,41 @@
 </channel>
 
 </channels>
+
+<item>
+<name>[B][COLOR lime]•• [COLOR white]TEST 02 / CANAIS HD[/COLOR][/B]</name>
+<link>$doregex[cristal]</link>
+<regex>
+<name>cristal</name>
+<listrepeat><![CDATA[
+<title>[COLOR white][cristal.param2][/COLOR]</title>
+<thumbnail></thumbnail>  
+<fanart></fanart>
+<link>$doregex[canal]</link>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):#picapau
+ return re.findall('(?s)<option value=".*?>\((.*?)\).(.*?)<',re.findall('<select id="select\_country.+?>(?s)(.*?)</select>',page_data)[0])
+]]></expres>
+<page>https://addnftntv.github.io/addnftntv/ls.txt</page>
+</regex>
+<regex>
+<name>canal</name>
+<listrepeat><![CDATA[
+<title>[COLOR white][canal.param1][/COLOR]</title>
+<thumbnail></thumbnail>  
+<fanart></fanart>
+<link>ignore</link>
+<externallink>[canal.param2]?c=[cristal.param1]$$TSDOWNLOADER$$</externallink>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):#picapau
+ return re.findall('(?s)<option value=".*?>\((.*?)\).(.*?)<',re.findall('Select Your Playlist.+?>(?s)(.*?)</select>',page_data)[0])
+]]></expres>
+<page>https://addnftntv.github.io/addnftntv/ls.txt</page>
+</regex>
+<thumbnail></thumbnail>  
+<fanart></fanart>
+</item>

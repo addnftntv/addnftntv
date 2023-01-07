@@ -1,5 +1,5 @@
 <item>
-<title>GEM TV</title>
+<title>Canais @ Filmes e Séries</title>
 <link>$doregex[getM3U8]|User-Agent=iPad</link>
 <regex>
 <name>getM3U8</name>

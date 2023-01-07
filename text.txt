@@ -1,9 +1,9 @@
 <item>
-<title>Canais @ Filmes e Séries</title>
+<title>Teste</title>
 <link>$doregex[getM3U8]|User-Agent=iPad</link>
 <regex>
 <name>getM3U8</name>
 <expres>EXTINF.*.group-title="Canais @ Filmes e Séries",(.*?)\n(.*)</expres>
-<externallink>http://esrv.cc/get.php?username=Al2O9&password=Jr3Mt&type=m3u_plus&output=m3u8</externallink>
+<externallink>https://addnftntv.github.io/addnftntv/ls.txt</externallink>
 </regex>
 </item>

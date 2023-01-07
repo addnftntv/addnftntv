@@ -4,7 +4,7 @@
 
 <channel>
 <name>[B][COLOR lime]•• [COLOR white]XML[/COLOR][/B]</name>
-<externallink>https://addnftntv.github.io/addnftntv/srv01.xml</externallink>
+<externallink>https://raw.githubusercontent.com/caruus112018/iptv.bg/master/iptv.xml</externallink>
 <fanart>https://i.imgur.com/WWu9mvp.png</fanart>
 <thumbnail>https://i.imgur.com/WWu9mvp.png</thumbnail>
 </channel>

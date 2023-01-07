@@ -11,7 +11,7 @@
 <thumbnail>NA</thumbnail>
 ]]></listrepeat>
 <expres>#EXTINF:.*,(.*?)\n.*(http.*m3u8)</expres>
-<page>https://raw.githubusercontent.com/mutluerol/iptv.bg/master/iptv.bg.m3u</page>
+<externallink>https://raw.githubusercontent.com/mutluerol/iptv.bg/master/iptv.bg.m3u</externallink>
 <referer>http://wwww.github.com/</referer>
 <x-forward></x-forward>
 <agent>Kodi/18.0</agent>

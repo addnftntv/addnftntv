@@ -1,9 +1,9 @@
 <item>
-<title>Teste DH2</title>
+<title>Teste DH3</title>
 <link>$doregex[getM3U8]|User-Agent=iPad</link>
 <regex>
 <name>getM3U8</name>
 <expres>EXTINF.*.*,(.*?HD.*)\n(.*)</expres>
-<externallink><![CDATA[https://addnftntv.github.io/addnftntv/ls.txt]]></externallink>
+<externallink>https://addnftntv.github.io/addnftntv/ls.txt</externallink>
 </regex>
 </item>

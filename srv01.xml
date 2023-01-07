@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item>
-<title>[COLOR white][B]TEST 0 [/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[makelist.param1]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=[makelist.param1]&amp;url=$doregex[encodedurl]</link>
-<thumbnail>NA</thumbnail>
-]]></listrepeat>
-<expres>#EXTINF.*.*,(.*?HD.*)\n(.*)</expres>
-<page>https://addnftntv.github.io/addnftntv/ls.txt</page>
-<referer>www.google.com/</referer>
-<x-forward></x-forward>
-<agent>Ipad</agent>
-</regex>
-<regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('[makelist.param2]')<expres>
-<page></page>
-</regex>
-</item>
 
 <item>
-<title>[COLOR white][B]TEST 02 [/COLOR][/B]</title>
+<title> IPTV.BG.1</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -33,8 +11,8 @@
 <thumbnail>NA</thumbnail>
 ]]></listrepeat>
 <expres>#EXTINF:.*,(.*?)\n.*(http.*m3u8)</expres>
-<page>http://esrv.cc/get.php?username=Al2O9&amp;password=Jr3Mt&amp;type=m3u_plus&amp;output=m3u8</page>
-<referer>www.google.com/</referer>
+<page>https://raw.githubusercontent.com/mutluerol/iptv.bg/master/iptv.bg.m3u</page>
+<referer>http://wwww.github.com/</referer>
 <x-forward></x-forward>
 <agent>Kodi/18.0</agent>
 </regex>
@@ -43,27 +21,4 @@
 <expres>$pyFunction:urllib.quote_plus('[makelist.param2]')<expres>
 <page></page>
 </regex>
-</item>
-  
-<item>
-<title>[COLOR white][B]TEST 03 [/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[makelist.param1]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=[makelist.param1]&amp;url=$doregex[encodedurl]</link>
-<thumbnail>NA</thumbnail>
-]]></listrepeat>
-<expres>#EXTINF:.*,(.*?)\n.*(http.*m3u8)</expres>
-<page>https://addnftntv.github.io/addnftntv/ls.txt</page>
-<referer>www.google.com/</referer>
-<x-forward></x-forward>
-<agent>Kodi/18.0</agent>
-</regex>
-<regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('[makelist.param2]')<expres>
-<page></page>
-</regex>
-</item>
+</item> 

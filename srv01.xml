@@ -2,7 +2,7 @@
 
 <item>
 <title> IPTV.BG.1</title>
-<link>$doregex[makelist]</link>
+<externallink>$doregex[makelist]</externallink>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
@@ -11,7 +11,7 @@
 <thumbnail>NA</thumbnail>
 ]]></listrepeat>
 <expres>#EXTINF:.*,(.*?)\n.*(http.*m3u8)</expres>
-<externallink>https://raw.githubusercontent.com/mutluerol/iptv.bg/master/iptv.bg.m3u</externallink>
+<page>https://raw.githubusercontent.com/mutluerol/iptv.bg/master/iptv.bg.m3u</page>
 <referer>http://wwww.github.com/</referer>
 <x-forward></x-forward>
 <agent>Kodi/18.0</agent>

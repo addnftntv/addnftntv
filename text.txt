@@ -9,4 +9,24 @@
 <thumbnail>https://i.imgur.com/Q2IJuNi.png</thumbnail>
 </channel>
 
+
+<channel>
+<name>[B][COLOR lime]•• [COLOR white]TEST 02 / CANAIS HD[/COLOR][/B]</name>
+<link>$doregex[getM3U8]|User-Agent=iPad</link>
+<regex>
+<name>getM3U8</name>
+<expres>#EXTINF.*.*,(.*?HD.*)\n(.*)</expres>
+<externallink>https://addnftntv.github.io/addnftntv/ls.txt</externallink>
+</regex>
+<fanart>https://i.imgur.com/XbxnDT6.png</fanart>
+<thumbnail>https://i.imgur.com/Q2IJuNi.png</thumbnail>
+</channel>
+
+<channel>
+<name>[B][COLOR lime]•• [COLOR white]TEST 03[/COLOR][/B]</name>
+<externallink>https://addnftntv.github.io/addnftntv/ls.txt</externallink>
+<fanart>https://i.imgur.com/WWu9mvp.png</fanart>
+<thumbnail>https://i.imgur.com/WWu9mvp.png</thumbnail>
+</channel>
+
 </channels>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <item>
-<title> IPTV.BG.1</title>
+<title> external </title>
 <externallink>$doregex[makelist]</externallink>
 <regex>
 <name>makelist</name>

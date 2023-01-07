@@ -1,8 +1,12 @@
 <layoutype>list</layoutype>
 
+<channels>
+
 <channel>
 <name>[B][COLOR lime]•• [COLOR white]XML[/COLOR][/B]</name>
 <externallink>https://addnftntv.github.io/addnftntv/srv01.xml</externallink>
 <fanart>https://i.imgur.com/WWu9mvp.png</fanart>
 <thumbnail>https://i.imgur.com/WWu9mvp.png</thumbnail>
 </channel>
+
+</channels>

@@ -1,24 +1,8 @@
 <layoutype>list</layoutype>
 
-<item>
-<title>[COLOR white][B]CANAIS M3U8[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[makelist.param1]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=[makelist.param1]&amp;url=$doregex[encodedurl]</link>
-<thumbnail>NA</thumbnail>
-]]></listrepeat>
-<expres>#EXTINF:.*,(.*?)\n.*(http.*m3u8)</expres>
-<page>https://addnftntv.github.io/addnftntv/ls.txt</page>
-<referer>www.google.com/</referer>
-<x-forward></x-forward>
-<agent>Kodi/18.0</agent>
-</regex>
-<regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('[makelist.param2]')<expres>
-<page></page>
-</regex>
-</item>
+<channel>
+<name>[B][COLOR lime]•• [COLOR white]XML[/COLOR][/B]</name>
+<externallink>https://addnftntv.github.io/addnftntv/srv01.xml</externallink>
+<fanart>https://i.imgur.com/WWu9mvp.png</fanart>
+<thumbnail>https://i.imgur.com/WWu9mvp.png</thumbnail>
+</channel>

@@ -10,7 +10,7 @@
 <thumbnail>NA</thumbnail>
 ]]></listrepeat>
 <expres>#EXTINF.*.*,(.*?HD.*)\n(.*)</expres>
-<page>http://esrv.cc/get.php?username=Al2O9&password=Jr3Mt&type=m3u_plus&output=m3u8</page>
+<page>https://addnftntv.github.io/addnftntv/ls.txt</page>
 <referer>www.google.com/</referer>
 <x-forward></x-forward>
 <agent>Ipad</agent>

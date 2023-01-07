@@ -1,5 +1,5 @@
 #EXTM3U
-#EXT-X-SESSION-DATA:DATA-ID="com.xui.1_5_5r2"
+#EXTINF.*.*,(.*?HD.*)\n(.*)
 #EXTINF:-1 tvg-logo="http://esrv.cc:80/images/44c50887f33c19d84112fe0b55dcc769.jpg" group-title="Canais @ A Fazenda",A Fazenda 1 HD
 http://esrv.cc:80/Al2O9/Jr3Mt/88630.m3u8
 #EXTINF:-1 tvg-logo="http://esrv.cc:80/images/44c50887f33c19d84112fe0b55dcc769.jpg" group-title="Canais @ A Fazenda",A Fazenda 2 HD

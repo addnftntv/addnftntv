@@ -1,9 +1,7 @@
 <layoutype>list</layoutype>
 
-<channels>
-
 <item>
-<title>CANAIS HD</title>
+<title>[COLOR white][B]CANAIS M3U8[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -24,5 +22,3 @@
 <page></page>
 </regex>
 </item>
-
-</channels>

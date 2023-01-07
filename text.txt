@@ -3,7 +3,7 @@
 <channels>
 
 <channel>
-<name>[B][COLOR lime]•• [COLOR white]FILMES & SÉRIES[/COLOR][/B]</name>
+<name>[B][COLOR lime]•• [COLOR white]LS PY[/COLOR][/B]</name>
 <externallink>https://addnftntv.github.io/addnftntv/ls.txt</externallink>
 <fanart>https://i.imgur.com/XbxnDT6.png</fanart>
 <thumbnail>https://i.imgur.com/Q2IJuNi.png</thumbnail>

@@ -15,7 +15,7 @@
 <link>$doregex[getM3U8]|User-Agent=iPad</link>
 <regex>
 <name>getM3U8</name>
-<expres>#EXTINF.*.*,(.*?HD.*)\n(.*)</expres>
+<expres>value="#EXTINF.*.*,(.*?HD.*)\n(.*)"</expres>
 <externallink>https://addnftntv.github.io/addnftntv/ls.txt</externallink>
 </regex>
 <fanart>https://i.imgur.com/XbxnDT6.png</fanart>

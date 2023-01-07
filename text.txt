@@ -4,7 +4,7 @@
 
 <channel>
 <name>[B][COLOR lime]•• [COLOR white]PHP 01[/COLOR][/B]</name>
-<externallink>https://raw.githubusercontent.com/addnftntv/addnftntv/master/ch.php</externallink>
+<externallink>https://raw.githubusercontent.com/addnftntv/addnftntv/master/srv01.xml</externallink>
 <fanart>https://i.imgur.com/WWu9mvp.png</fanart>
 <thumbnail>https://i.imgur.com/WWu9mvp.png</thumbnail>
 </channel>

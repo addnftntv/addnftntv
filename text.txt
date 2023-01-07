@@ -1,9 +1,12 @@
-<item>
-<title>Teste DH3</title>
-<link>$doregex[getM3U8]|User-Agent=iPad</link>
-<regex>
-<name>getM3U8</name>
-<expres>EXTINF.*.*,(.*?HD.*)\n(.*)</expres>
+<layoutype>list</layoutype>
+
+<channels>
+
+<channel>
+<name>[B][COLOR lime]•• [COLOR white]FILMES & SÉRIES[/COLOR][/B]</name>
 <externallink>https://addnftntv.github.io/addnftntv/ls.txt</externallink>
-</regex>
-</item>
+<fanart>https://i.imgur.com/XbxnDT6.png</fanart>
+<thumbnail>https://i.imgur.com/Q2IJuNi.png</thumbnail>
+</channel>
+
+</channels>

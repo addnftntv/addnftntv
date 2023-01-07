@@ -1,5 +1,4 @@
-$re = '/EXTINF.*.*,(.*?HD.*)\n(.*)/';
-$str = '#EXTM3U
+#EXTM3U
 #EXT-X-SESSION-DATA:DATA-ID="com.xui.1_5_5r2"
 #EXTINF:-1 tvg-logo="http://esrv.cc:80/images/44c50887f33c19d84112fe0b55dcc769.jpg" group-title="Canais @ A Fazenda",A Fazenda 1 HD
 http://esrv.cc:80/Al2O9/Jr3Mt/88630.m3u8
@@ -3448,9 +3447,4 @@ http://esrv.cc:80/Al2O9/Jr3Mt/41469.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Canais @ 4K (FHDR)",Cartoon Network 4K
 http://esrv.cc:80/Al2O9/Jr3Mt/41529.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Canais @ 4K (FHDR)",Disney Channel 4K
-http://esrv.cc:80/Al2O9/Jr3Mt/41327.m3u8';
-
-preg_match_all($re, $str, $matches, PREG_SET_ORDER, 0);
-
-// Print the entire match result
-var_dump($matches);
+http://esrv.cc:80/Al2O9/Jr3Mt/41327.m3u8

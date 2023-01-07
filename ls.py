@@ -3,7 +3,7 @@
 
 import re
 
-regex = r"EXTINF.*.*,(.*?HD.*)\n(.*)"
+regex = r"#EXTINF.*.*,(.*?HD.*)\n(.*)"
 
 test_str = ("#EXTM3U\n"
 	"#EXT-X-SESSION-DATA:DATA-ID=\"com.xui.1_5_5r2\"\n"
